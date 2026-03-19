@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Base body styling */
+body {
+  background: radial-gradient(circle at top, #0a0a0a, #000);
+  color: white;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+/* Optional: better selection color */
+::selection {
+  background: #3b82f6;
+  color: white;
+}
