@@ -5,7 +5,7 @@ export default function SocialBar() {
 
         <div id="social" className="fixed right-5 top-1/5 -translate-y-1/5 flex flex-col gap-7 text-xl">
 
-            <a href="https://github.com/Harshithdeep-ai" target="_blank">
+            <a href="https://github.com/shiva-prasad-ai" target="_blank">
 
                 <FaGithub size={28} className="hover:text-blue-400 transition" />
 
@@ -15,7 +15,7 @@ export default function SocialBar() {
                 <FaLinkedin size={28} className="hover:text-blue-400 transition" />
             </a>
 
-            <a href="mailto:pharshithdeep@gmail.com">
+            <a href="mailto:shivaprasad26005@gmail.com">
                 <FaEnvelope size={28} className="hover:text-blue-400 transition" />
             </a>
 
