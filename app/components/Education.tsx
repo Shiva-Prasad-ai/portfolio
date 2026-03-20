@@ -33,7 +33,7 @@ export default function Education() {
                             BCA (Current)
                         </h3>
                         <p className="text-0.5xl text-gray-400 mt-2">
-                            Currently pursuing Bachelor of Computer Applications. Built projects like E-Commerce Website, Chatbot, and Portfolio. Passionate about Accounts and Finance.
+                            Currently pursuing Bachelor of Computer Applications. Built projects like Unit Converter, Chatbot, and Portfolio. Passionate about Accounts and Finance.
                         </p>
                     </div>
 
@@ -45,7 +45,7 @@ export default function Education() {
                             12th - Computer Science
                         </h3>
                         <p className="text-gray-400 mt-2">
-                            Secured 5th place among 80 students with strong foundation in programming and reasoning.
+                            Secured 2nd place among 120 students with strong foundation in programming and logical thinking.
                         </p>
                     </div>
                 </div>
