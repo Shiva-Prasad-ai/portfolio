@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 
 export default function About() {
     return (
-        <section className="p-20 max-w-4xl mx-auto text-center">
+        <section id="about" className="p-20 max-w-4xl mx-auto text-center">
             <motion.h2
-                className="text-3xl mb-6"
+                className="text-5xl mb-6"
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
             >
@@ -14,7 +14,7 @@ export default function About() {
             </motion.h2>
 
             <motion.p
-                className="text-gray-400 leading-relaxed"
+                className="text-2xl mb-1 text-gray-400 leading-relaxed"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
             >

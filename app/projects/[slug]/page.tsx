@@ -1,7 +1,13 @@
-import { projects } from "./../../lib/data";
+import { projects } from "../.././lib/data";
 
-export default function ProjectPage({ params }: { params: { slug: string } }) {
-    const project = projects.find((p) => p.slug === params.slug);
+export default async function ProjectPage({
+    params,
+}: {
+    params: Promise<{ slug: string }>;
+}) {
+    const { slug } = await params;   // ✅ FIX
+
+    const project = projects.find((p) => p.slug === slug);
 
     if (!project) {
         return <div>Project not found</div>;

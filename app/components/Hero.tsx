@@ -4,7 +4,8 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex flex-col md:flex-row items-center justify-center gap-16 px-10 pt-20">
+
+    <section id="home" className="min-h-screen flex flex-col md:flex-row items-center justify-center gap-16 px-10 pt-20">
 
       {/* LEFT SIDE */}
       <div className="max-w-xl">
@@ -16,21 +17,26 @@ export default function Hero() {
           Hi, I'm <span className="text-blue-500">Shiva Prasad</span>
         </motion.h1>
 
-        <p className="mt-6 text-gray-400">
+        <p className="text-2xl mt-6 text-gray-400">
           Full Stack Developer building modern web experiences.
         </p>
 
       </div>
+      <div className="relative w-64 h-64 flex items-center justify-center">
 
-      {/* RIGHT SIDE (Character) */}
-      <motion.img
-        src="/character.png"
-        alt="character"
-        width={300}
-        height={300}
-        border-radius={200}
-        className="rounded-full object-cover border border-white/10"
-      />
+        {/* Outer Ring */}
+        <div className="absolute w-full h-full rounded-full border-2 border-blue-500/40 shadow-[0_0_30px_rgba(59,130,246,0.5)]"></div>
+
+        {/* Inner Image */}
+        <img
+          src="/character.png"
+          alt="profile"
+          className="w-52 h-52 rounded-full object-cover border border-white/10"
+        />
+
+      </div>
+
+
 
     </section>
   );

@@ -32,7 +32,7 @@ const skills = [
 
 export default function Skills() {
     return (
-        <section className="p-20 max-w-4xl mx-auto">
+        <section id="skills" className="p-20 max-w-4xl mx-auto">
             <h2 className="text-3xl mb-10 text-center">Skills</h2>
 
             <div className="space-y-8">
