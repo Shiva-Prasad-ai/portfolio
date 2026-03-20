@@ -18,9 +18,9 @@ export default function About() {
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
             >
-                I am a developer passionate about building efficient, scalable, and user-friendly applications.
-                I enjoy working with modern technologies like Next.js and Firebase, and I continuously strive
-                to improve my skills in both frontend and backend development.
+                Software Engineer with a passion for building clean, scalable applications. I specialize in bridging the gap between robust backend logic (Java)
+                and intuitive, engaging user interfaces (JavaScript/CSS).With a focus on modern design trends like Neumorphism and Glassmorphism,
+                I thrive on turning complex problems into elegant, user-centric digital solutions."
             </motion.p>
         </section>
     );

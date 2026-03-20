@@ -1,31 +1,31 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FaPython, FaJs, FaHtml5, FaCss3Alt } from "react-icons/fa";
+import { FaJava, FaJs, FaHtml5, FaCss3Alt } from "react-icons/fa";
 
 const skills = [
     {
-        name: "Python",
-        icon: <FaPython />,
-        level: 69,
+        name: "Java",
+        icon: <FaJava />,
+        level: 70,
         category: "Programming"
     },
     {
         name: "JavaScript",
         icon: <FaJs />,
-        level: 40,
+        level: 80,
         category: "Programming"
     },
     {
         name: "HTML",
         icon: <FaHtml5 />,
-        level: 90,
+        level: 85,
         category: "Development"
     },
     {
         name: "CSS",
         icon: <FaCss3Alt />,
-        level: 68,
+        level: 85,
         category: "Development"
     }
 ];
