@@ -6,7 +6,7 @@ export default function About() {
     return (
         <section id="about" className="p-20 max-w-4xl mx-auto text-center">
             <motion.h2
-                className="text-5xl mb-6"
+                className="text-3xl mb-6"
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
             >
@@ -14,13 +14,13 @@ export default function About() {
             </motion.h2>
 
             <motion.p
-                className="text-2xl mb-1 text-gray-400 leading-relaxed"
+                className="text-gray-400 leading-relaxed"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
             >
-                Software Engineer with a passion for building clean, scalable applications. I specialize in bridging the gap between robust backend logic (Java)
-                and intuitive, engaging user interfaces (JavaScript/CSS).With a focus on modern design trends like Neumorphism and Glassmorphism,
-                I thrive on turning complex problems into elegant, user-centric digital solutions."
+                I am a developer passionate about building efficient, scalable, and user-friendly applications.
+                I enjoy working with modern technologies like Next.js and Firebase, and I continuously strive
+                to improve my skills in both frontend and backend development.
             </motion.p>
         </section>
     );

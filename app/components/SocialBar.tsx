@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 export default function SocialBar() {
     return (
 
-        <div id="social" className="fixed left-5 top-1/5 -translate-y-1/5 flex flex-col gap-7 text-xl">
+        <div id="social" className="fixed right-5 top-1/5 -translate-y-1/5 flex flex-col gap-7 text-xl">
 
             <a href="https://github.com/Harshithdeep-ai" target="_blank">
 
